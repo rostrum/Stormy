@@ -157,7 +157,7 @@ public class MainActivity extends ActionBarActivity {
         mPrecipValue.setText(current.getPrecipChance() + "%");
         mSummaryLabel.setText(current.getSummary());
 
-        Drawable drawable = getResources().getDrawable(current.getIcoonId());
+        Drawable drawable = getResources().getDrawable(current.getIconId());
         mIconImageView.setImageDrawable(drawable);
     }
 
