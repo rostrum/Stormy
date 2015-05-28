@@ -39,7 +39,7 @@ public class Hour implements Parcelable{
     }
 
     public void setTemperature(double temperature) {
-        mTemperature = temperature;
+        mTemperature = ((temperature -32) * 5/9);
     }
 
     public String getIcon() {
